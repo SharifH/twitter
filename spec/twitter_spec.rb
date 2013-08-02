@@ -4,6 +4,7 @@ describe Twitter do
 
   after do
     Twitter.reset!
+    or not
   end
 
   context "when delegating to a client" do
